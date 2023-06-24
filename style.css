@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+header h3{
+    text-align: center;
+    margin: 3rem;
+    font-size: large;
+}
+.formbox{
+    margin: 1rem auto;
+    width: 430px;
+    background: #dbdada8c;
+    height: 430px;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+.form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    width: 80%;
+    margin: .6rem 9%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(128, 126, 126);
+    padding:  12px;
+    background: transparent;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+
+.add{
+    display: block;
+    margin: 2rem auto;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #0f0fbb;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 2px 1.5px 2px black ;
+    transition: click 3s ease-in-out;
+}
+
+.storeBox{
+    height: auto;
+    width: 80%;
+    background: #eeeaea;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3.5rem;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.delete{
+    color: #fff;
+    background-color: red;
+    font-size: 1.2rem;
+    border-radius: 42px  14px 42px 14px; 
+    padding: 3px 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 1.5px 2px black;
+}
+
+.edit{
+    color: #000000;
+    background-color: rgb(255, 230, 0);
+    font-size: 1.2rem;
+    border-radius: 14px  42px 14px 42px; 
+    padding: 3px 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 1.5px 2px ;
+}
+
+
+/*  CSS FOR ALERT MESSAGES */
+.alert{
+    margin: 6px auto;
+    width: 430px;
+    font-weight: 500;
+    height: 40px;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.alert-danger{
+    background: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.alert-sucess{
+    background: rgb(0, 255, 149);
+    color: #000000;
+}
